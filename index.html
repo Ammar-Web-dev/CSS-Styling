@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--IN css styling the script tag is always in head tag  -->
+    <style>
+        h1{
+            color: tomato;
+        }
+        .green{
+            /* this is rgb method to pick a color */
+            color: rgb( 50, 100, 75);
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            /* the "px" is the pixels which we used down below */
+            font-size: 35px;
+            font-style: italic;
+
+        }
+
+
+
+        #container{
+            width: 50%;
+            height: 20rem;
+            /* hex code color,hexadecimal */
+            background-color: #3C83F6;
+            /* we use border radius to rounded the spuare */
+            border-radius: 20px;
+            /* 1 rem = 16px */
+        }
+        .About{
+            font-weight: 900;
+            /* opacity is used to dim a color for example the user will thoyght that it is a diabled option   */
+            opacity: 0.5;
+            text-transform: uppercase;
+        }
+        .para{
+            color: navy;
+            /* we will use "letter-spacing" to add spcae between the letters */
+            letter-spacing: 2px;
+            /* we will use "word-spacing" if we want space between the word */
+            word-spacing: 2px;
+        }
+        .letter{
+            font-size: 30px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Css Styling</h1>
+    <p class="green"> short paragraph is a focused, self-contained unit of text that typically consists of three to five sentences. It is designed to clearly convey a single controlling idea, making complex topics easier to digest at a glance</p>
+    <i class="green">Hello</i>
+    
+    
+    <div id="container"></div>
+
+    
+
+    <p class="About"> i am running here and there  for nothing </p>
+    <!-- span is used to make an first letter Capital and Bold like in Newspaper -->
+    <p class="para"> <span class="letter">S</span>pending time at national parks can be an exciting adventure, but this wasn't the type of excitement she was hoping to experience. As she contemplated the situation she found herself in, she knew she'd gotten herself in a little more than she bargained for. It wasn't often that she found herself in a tree staring down at a pack of wolves that were looking to make her their next meal.</p>
+</body>
+</html>
